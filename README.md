@@ -1,7 +1,5 @@
 # Plot.ly Homework - Belly Button Biodiversity
 
-![Bacteria by filterforge.com](Images/bacteria_by_filterforgedotcom.jpg)
-
 In this assignment, you will build an interactive dashboard to explore the [Belly Button Biodiversity DataSet](http://robdunnlab.com/projects/belly-button-biodiversity/).
 
 ### Before You Begin
@@ -75,8 +73,6 @@ The following task is completely optional and is very advanced.
 
 * Update the chart whenever a new sample is selected.
 
-![Weekly Washing Frequency Gauge](Images/gauge.png)
-
 - - -
 
 ## Flask API
@@ -86,17 +82,3 @@ Use Flask API starter code to serve the data needed for your plots.
 * Test your routes by visiting each one in the browser.
 
 - - -
-
-## Hints
-
-* Don't forget to `pip install -r requirements.txt` before you start your server.
-
-* Use `console.log` inside of your JavaScript code to see what your data looks like at each step.
-
-* Refer to the [Plotly.js Documentation](https://plot.ly/javascript/) when building the plots.
-
-- - -
-
-### Copyright
-
-Trilogy Education Services © 2019. All Rights Reserved.
