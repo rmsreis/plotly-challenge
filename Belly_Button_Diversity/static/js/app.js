@@ -25,9 +25,15 @@ function buildMetadata(sample) {
   // tags for each key-value in the metadata.
 
     // BONUS: Build the Gauge Chart
+<<<<<<< HEAD
   buildGauge(data.WFREQ);
 
   // buildGauge(data.wfreq);
+=======
+    // buildGauge(data.WFREQ);
+
+  buildGauge(data.wfreq);
+>>>>>>> e7bcbb700f12685155db5a24090b21f708bce40f
   });
 
 }
@@ -51,20 +57,32 @@ function buildCharts(sample) {
     marker:{
       size: size_value,
       color: x_value,
+<<<<<<< HEAD
       colorscale: "Earth",
       labels: label,
       type: 'scatter',
       opacity: 0.3
+=======
+      colorscale: "Rainbow",
+      labels: label,
+      type: 'scatter',
+      opacity: 0.5
+>>>>>>> e7bcbb700f12685155db5a24090b21f708bce40f
     }
   };
 
   var data1 = [trace1];
 
   var layout = {
+<<<<<<< HEAD
     margin: { t: 0 },
     title: 'Marker Size',
     xaxis: { title: 'OTU ID' },
     hovermode: 'closest',
+=======
+    title: 'Marker Size',
+    xaxis: { title: 'OTU ID' },
+>>>>>>> e7bcbb700f12685155db5a24090b21f708bce40f
     showlegend: true
   };
   Plotly.newPlot("bubble", data1, layout); 
@@ -76,6 +94,7 @@ function buildCharts(sample) {
     var data = [{
       values: size_value.splice(0, 10),
       labels: x_value.splice(0, 10),
+<<<<<<< HEAD
       hovertext: y_value.splice(0,10),
       hoverinfo: 'hovertext',
       type: 'pie'
@@ -85,6 +104,12 @@ function buildCharts(sample) {
       margin: {t: 0, l: 0}
     }
     Plotly.newPlot('pie', data, layout);
+=======
+      text: y_value.splice(0,10),
+      type: 'pie'
+    }];
+    Plotly.newPlot('pie', data);
+>>>>>>> e7bcbb700f12685155db5a24090b21f708bce40f
   });
 
 }
