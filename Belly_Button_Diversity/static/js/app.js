@@ -25,9 +25,9 @@ function buildMetadata(sample) {
   // tags for each key-value in the metadata.
 
     // BONUS: Build the Gauge Chart
-    // buildGauge(data.WFREQ);
+  buildGauge(data.WFREQ);
 
-  buildGauge(data.wfreq);
+  // buildGauge(data.wfreq);
   });
 
 }
@@ -51,18 +51,20 @@ function buildCharts(sample) {
     marker:{
       size: size_value,
       color: x_value,
-      colorscale: "Rainbow",
+      colorscale: "Earth",
       labels: label,
       type: 'scatter',
-      opacity: 0.5
+      opacity: 0.3
     }
   };
 
   var data1 = [trace1];
 
   var layout = {
+    margin: { t: 0 },
     title: 'Marker Size',
     xaxis: { title: 'OTU ID' },
+    hovermode: 'closest',
     showlegend: true
   };
   Plotly.newPlot("bubble", data1, layout); 
@@ -74,10 +76,15 @@ function buildCharts(sample) {
     var data = [{
       values: size_value.splice(0, 10),
       labels: x_value.splice(0, 10),
-      text: y_value.splice(0,10),
+      hovertext: y_value.splice(0,10),
+      hoverinfo: 'hovertext',
       type: 'pie'
     }];
-    Plotly.newPlot('pie', data);
+
+    var pieLayout = {
+      margin: {t: 0, l: 0}
+    }
+    Plotly.newPlot('pie', data, layout);
   });
 
 }
