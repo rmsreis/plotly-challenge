@@ -1,20 +1,9 @@
 # Analysis of Belly Button Biodiversity
 
-In this assignment, you will build an interactive dashboard to explore the [Belly Button Biodiversity DataSet](http://robdunnlab.com/projects/belly-button-biodiversity/).
+Interactive dashboard to explore the [Belly Button Biodiversity DataSet](http://robdunnlab.com/projects/belly-button-biodiversity/).
 
-### Before You Begin
+## ADD dataset description!!!
 
-1. Create a new repository for this project called `plotly-challenge`.
-
-2. Clone the new repository to your computer.
-
-3. Inside your local git repository, create a directory for the Plotly challenge. Use the folder name to correspond to the challenge: **Belly_Button_Diversity**.
-
-4. This is a full stack app so add your html, js, css, python and sqlite files.
-
-5. Push the above changes to GitHub or GitLab.
-
-## Step 1 - Plotly.js
 
 Use Plotly.js to build interactive charts for your dashboard.
 
@@ -46,34 +35,17 @@ Use Plotly.js to build interactive charts for your dashboard.
 
 * Update all of the plots any time that a new sample is selected.
 
-* You are welcome to create any layout that you would like for your dashboard. An example dashboard page might look something like the following.
-
-## Step 2 - Heroku
-
-Deploy your Flask app to Heroku.
-
-* You can use the provided sqlite file for the database.
-
-* Ask your Instructor and TAs for help!
-
-- - -
-
-## Advanced Challenge Assignment (Optional)
-
-The following task is completely optional and is very advanced.
-
-* Adapt the Gauge Chart from <https://plot.ly/javascript/gauge-charts/> to plot the Weekly Washing Frequency obtained from the `/metadata/<sample>`route.
-
-* You will need to modify the example gauge code to account for values ranging from 0 - 9.
-
-* Update the chart whenever a new sample is selected.
-
-- - -
-
 ## Flask API
 
 Use Flask API starter code to serve the data needed for your plots.
 
 * Test your routes by visiting each one in the browser.
+
+
+## Heroku
+https://belly-button-00.herokuapp.com/
+- - -
+
+
 
 - - -
