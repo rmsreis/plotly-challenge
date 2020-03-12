@@ -1,10 +1,10 @@
-# Plot.ly Homework - Belly Button Biodiversity
+# Analysis of Belly Button Biodiversity
 
 In this assignment, you will build an interactive dashboard to explore the [Belly Button Biodiversity DataSet](http://robdunnlab.com/projects/belly-button-biodiversity/).
 
 ### Before You Begin
 
-1. Create a new repository for this project called `plotly-challenge`. **Do not add this homework to an existing repository**.
+1. Create a new repository for this project called `plotly-challenge`.
 
 2. Clone the new repository to your computer.
 
