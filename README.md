@@ -1,6 +1,11 @@
-# Analysis of Belly Button Biodiversity
+## Dashboard for data visualization and exploration
 
-Interactive dashboard to explore the [Belly Button Biodiversity DataSet](http://robdunnlab.com/projects/belly-button-biodiversity/).
+Here I use 
+
+### Dataset:
+
+
+ [Belly Button Biodiversity DataSet](http://robdunnlab.com/projects/belly-button-biodiversity/).
 
 ## ADD dataset description!!!
 
@@ -35,14 +40,16 @@ Use Plotly.js to build interactive charts for your dashboard.
 
 * Update all of the plots any time that a new sample is selected.
 
-## Flask API
+
+### Flask API
+---------------------------------------
 
 Use Flask API starter code to serve the data needed for your plots.
-
 * Test your routes by visiting each one in the browser.
 
+### Heroku
+------------------------------------------
 
-## Heroku
 https://belly-button-00.herokuapp.com/
 - - -
 
