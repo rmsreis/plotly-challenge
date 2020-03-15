@@ -51,8 +51,6 @@ Use Flask API starter code to serve the data needed for your plots.
 ------------------------------------------
 
 https://belly-button-00.herokuapp.com/
-- - -
 
 
-
-- - -
+<b> contact:</b> robertomsreis@gmail.com
