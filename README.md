@@ -6,7 +6,8 @@ Full-Stack Data Analysis to build an interactive dashboard exploring the Belly B
 ### Dataset:
 
  [Belly Button Biodiversity DataSet](http://robdunnlab.com/projects/belly-button-biodiversity/).
- 
+
+------------------- 
  
 ## Objectives
 
@@ -40,6 +41,8 @@ Use Plotly.js to build interactive charts for the dashboard
     * Update the chart whenever a new sample is selected
 
 ![](Images/wash_frequency.png)
+
+--------------
 
 ### Step 2 - Heroku
 
