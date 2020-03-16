@@ -41,12 +41,23 @@ Use Plotly.js to build interactive charts for the dashboard
 
 ![](Images/wash_frequency.png)
 
+### Step 2 - Heroku
 
-### Heroku
-------------------------------------------
+Deploy the Flask App to Heroku
 
+* Use the provided SQLite file for the database
+
+#### Heroku Deployment:
 https://belly-button-00.herokuapp.com/
 
+### Step 3 - Flask API
+
+Use Flask API code to serve the data needed for the plots
+
+* Test the routes by visiting each one in the browser
+
+---------------------------------------------------
 
 <b>Contact:</b> robertomsreis@gmail.com
+
 <b>Twitter:</b> @robertomsreis
